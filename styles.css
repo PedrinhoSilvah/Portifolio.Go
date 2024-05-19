@@ -3,18 +3,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #222f3e;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+    background-color: #222f3e;
+    color: #c8d6e5;
     padding: 20px 0;
+    text-align: center;
 }
 
-header h1 {
+header h2 {
     margin: 0;
+    font-size: 28px;
 }
+
+
 
 section {
     padding: 20px;
@@ -26,13 +30,39 @@ section {
     gap: 24%;
 }
 
-.sobre{
-    width: 750px;
-    margin-left: 20px;
+#presentation p {
+   color:  #747d8c;
+   font-size: 16px;
+    
 }
 
-.sobre p{
-    font-size: 16px;
+h1{
+    font-size: 54px;
+    padding-top: 40px ;
+    margin: 0;
+    color: #3498db;
+}
+
+.text {
+    padding-top: 40px;
+}
+
+.Dev{
+    font-size: 54px;
+    padding-left: 70px;
+    margin: 0;
+    color: #ecf0f1;
+}
+
+.sobre{
+    width: 750px;
+    margin-left: 90px;
+}
+
+
+.info{
+    font-size: 29px;
+    color: #a4b0be;
 }
 
 img{
@@ -40,15 +70,57 @@ img{
 }
 
 
-/* Estilos específicos */
+#skills {
+    padding-top: 10%;
+    width: 580px;
+}
+
 #skills ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #skills ul li {
     margin-bottom: 5px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+    padding: 10px;
+    color: #747d8c;
+}
+
+#projects h2{
+    text-align: center;
+    font-size: 39px;
+    color: #3498db;
+}
+
+.content-dad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #fff;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.proj {
+    width: 100%;
+    height: 80%;
+}
+
+a {
+   margin: 50px;
+}
+
+.gran {
+    width: 50px;
 }
