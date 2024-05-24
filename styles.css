@@ -139,4 +139,9 @@ a {
      p,   #skills{
         width: 320px;
     }
+
+    span{
+        display: flex;
+        justify-content: center;
+    }
 }
