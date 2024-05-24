@@ -124,3 +124,19 @@ a {
 .gran {
     width: 50px;
 }
+
+
+@media (max-width: 760px) {
+    .sobre {
+        margin: 0;
+    }
+
+    #presentation {
+        display: flex;
+        flex-direction: column;
+    }
+
+     p,   #skills{
+        width: 320px;
+    }
+}
